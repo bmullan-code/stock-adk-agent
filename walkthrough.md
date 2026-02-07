@@ -9,7 +9,14 @@ I have successfully implemented and verified the Stock ADK Agent. The agent can 
 - **LLM Backend Configuration**: Resolved the "Missing key inputs" error by monkeypatching the `google.genai.Client` to force Vertex AI usage with the correct project and location.
 - **Standalone Execution**: Added a `run_standalone` method to `agent.py` to allow the agent to be run directly via `python agent.py`.
 
+## Architecture Diagram
+
+The following diagram illustrates how the ADK Agent (Stock Agent) interacts with the Gemini 3 model and the remote MCP server tools:
+
+![Stock Agent Architecture Diagram](/Users/barrymullan/Documents/antigravity/stock-adk-agent/images/architecture_diagram.png)
+
 ## Implementation Details
+
 
 ### MCP Connection Setup
 The agent now uses the following configuration to connect to the remote MCP server:

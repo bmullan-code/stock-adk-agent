@@ -25,3 +25,7 @@
     - [x] Create deployment script (deploy_to_agent_engine.sh)
     - [x] Handle GCS bucket creation
     - [x] Execute adk deploy agent_engine
+- [x] Visuals [x]
+    - [x] Create architecture diagram
+    - [x] Incorporate diagram into walkthrough
+
