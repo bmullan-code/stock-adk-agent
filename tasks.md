@@ -1,0 +1,27 @@
+# Stock ADK Agent Task List
+
+- [x] Research and Setup [x]
+    - [x] Read ADK documentation and Python examples
+    - [x] Explore MCP server tools
+    - [x] Initialize Python environment and project structure
+- [x] Documentation [x]
+    - [x] Create walkthrough.md
+    - [x] Update project README.md
+- [x] Implementation [x]
+    - [x] Set up ADK agent configuration
+    - [x] Implement MCP tool integration
+    - [x] Add stock information logic
+- [x] Verification [x]
+    - [x] Test agent with stock queries
+    - [x] Verify MCP tool calls
+    - [x] Enable ADK Web support
+    - [x] Final query test ("avgo")
+- [x] Model and Location Update [x]
+    - [x] Update location to global
+    - [x] Update model to gemini-3-flash-preview
+    - [x] Add new defaults to .env.example
+    - [x] Test avgo and msft in Web UI
+- [x] Deployment [x]
+    - [x] Create deployment script (deploy_to_agent_engine.sh)
+    - [x] Handle GCS bucket creation
+    - [x] Execute adk deploy agent_engine
